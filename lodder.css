@@ -1,0 +1,16 @@
+
+
+#rot{
+animation: spin;
+animation-duration: 3s;
+animation-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1);
+animation-iteration-count: infinite;
+}
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
